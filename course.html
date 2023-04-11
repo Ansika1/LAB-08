@@ -116,6 +116,34 @@ dataLayer.push({
       price: 1000,
       quantity: 1
   }
+	
+  dataLayer.push({
+  event: "purchase",
+  ecommerce2: {
+
+  transaction_id: "T_12345",
+  affiliation : "Google",
+  value: 25.42,
+  tax: 4.90,
+  shipping: 5.99,
+  currency: "USD",
+  items: [
+     {
+      item_id: "SKU_12345",
+      item_name: "Stan and Friends Tee",
+      affiliation: "Google Merchandise Store",
+      coupon: "100OFF",
+      discount: 2.22,
+     },
+	       
+     {
+      item_id: "SKU_12366",
+      item_name: "H & M",
+      affiliation: "Google Merchandise Store",
+      coupon: "200OFF",
+      discount: 4.22,
+     }]
+	       
 });
 	</script>
 
